@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    text-transform: capitalize;
+}
+.container{
+display: grid;
+place-items: center;
+}
+.main{
+display: flex;
+justify-content: center;
+margin-top: 22px;
+}
+#image{
+border: 1px solid #d8d0d0;
+outline: none;
+object-fit: cover;
+}
+#file{
+margin-top: 24px;
+}
+#label{
+margin-top:29px ;
+text-transform: capitalize;
+
+}
+label{
+font-size: large;
+}
+#btn{
+margin-top: 20px;
+width: 169px;
+height: 36px;
+outline: none;
+border: none;
+background-color: #66BB6A;
+border-radius: 3px;
+color: white;
+text-transform: capitalize;
+cursor: pointer;
+font-size: larger;
+}
+#btn:hover{
+opacity: 0.8;
+}
+h2{
+margin-top: -12px;
+}
+
+input[type="text"]{
+width: 243px;
+outline: none;
+border: 1px solid #b5acac;
+height: 33px;
+border-radius: 4px;
+font-size: large;
+}
+#png{
+margin-right: 78px;
+}
