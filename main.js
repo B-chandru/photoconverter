@@ -30,6 +30,6 @@
           a.href=reader.result
           a.click();
           a.remove();
-         
+          location.reload();
          
   }
