@@ -1,5 +1,5 @@
 
-var cacheName = 'photo_converter'; 
+var cacheName = 'photo_converter v1'; 
 
 var cacheAssets = [ 
   '/',
